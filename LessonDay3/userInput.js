@@ -21,16 +21,18 @@ if (username == 'paul123' && password == '12345') {
 } */ 
 
 
-var loggedIn = false;
+//var loggedIn = false;
 
-while(!loggedIn) {
+/*while(!loggedIn) {
     let username = prompt('Username:');
     let password = prompt('Password:');
 
 if (username == 'paul123' && password == '12345') {
     alert('Welcome back, ' + username);
     loggedIn = true; /*when this is true loop will quit iterating */
-} else {
+/*} else {
     alert('Incorrect username or password.');
     }
 }
+*/
+

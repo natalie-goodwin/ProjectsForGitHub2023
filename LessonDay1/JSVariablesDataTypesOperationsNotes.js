@@ -1,8 +1,8 @@
 /* variables: assign a name to some data; 
 when we refer to that name, we refer to the date
-JS is dynamically typed language; when we declare a variable
+JS is dynamically typed language: when we declare a variable
  we don't have to explicitly say what type of data the 
- variable will be representing; JS infers the dat type
+ variable will be representing; JS infers the data type
  based on the data
 */
 
@@ -13,7 +13,9 @@ var numericDataDecimal = 123.45; //decimal number aka floating point
 var booleanData = true; //boolean
 var booleanData2 = false; //boolean also
 
-/*Operations: an operator acts on operands; most commonly
+/*We need to perform operations on data
+because having variables all alone isn't enough;
+Operations: an operator acts on operands; most commonly
 2 operands */
 console.log("Hello Everyone!");
 
