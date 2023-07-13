@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+   </head> 
+   <body>
+    <div id="mocha"><p><a href=".">Index</a></p></div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="index.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="index_test.js"></script>
+    <script>mocha.run();</script>
+</body>    <!--above files need to be loaded in the above order-->
+</html>
+ <!--in this html file, we load up the functions to be tested, load the tests, 
+ and run the tests-->
+ <!--Test driven development: unit tests should be written before
+writing the code to pass those tests; this way, we can define what the code
+should do first through the tests, and then write the code, and the unit test
+will tell us if the code is correct or not. This is called test driven
+development: the process of writing tests first, and then writing the code
+to pass those tests after that logic is defined in the unit test.-->
