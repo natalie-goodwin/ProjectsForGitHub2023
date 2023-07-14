@@ -16,7 +16,7 @@ class Player {
 class Team {
    constructor(name) {
         this.name = name;
-        this. players = []; /* This array will hold all the 
+        this.players = []; /* This array will hold all the 
         players on the team; this is a blank array where names
         of team will be added*/
    } 
@@ -104,17 +104,17 @@ class Menu {
         `);
     }
 
-    // showTeamMenuOptions(teamInfo) {
-    //     /*takes the description of the team, prints out the info, and returns the user 
-    //     input*/
-    //     return prompt (`
-    //     0) back
-    //     1) create player
-    //     2) delete player
-    //     ---------------------
-    //     ${teamInfo}
-    //     `);
-    // }
+    showTeamMenuOptions(teamInfo) {
+        /*takes the description of the team, prints out the info, and returns the user 
+        input*/
+        return prompt (`
+        0) back
+        1) create player
+        2) delete player
+        ---------------------
+        ${teamInfo}
+        `);
+    }
 
     displayTeams() { 
         let teamString = '';
