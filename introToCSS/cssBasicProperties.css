@@ -1,0 +1,15 @@
+#example {
+    color: gray;
+    background-color: aquamarine;
+    border: dotted;
+    border-width: 10px;
+    border-color: red;
+    border-radius: 30px;
+    height: 400px;
+    text-align: left;
+}
+
+
+/*the key is on the left, and it's the property we are 
+defining. The value is on the right, and it's what we we 
+will set the key's property to */
