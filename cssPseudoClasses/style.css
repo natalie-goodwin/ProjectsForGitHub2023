@@ -1,0 +1,19 @@
+.hov{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.hov:hover{
+    background-color: blue;
+} /*in a hover state the red div changes to blue with mouse hover */
+
+.every-even li:nth-child(even){
+    background-color: red;
+} /*makes every even line red*/
+
+.every-third li:nth-child(3n){
+    background-color: blue;
+} /*makes every even line red*/
+
+/*we can select very specific elements by using multiple selectors */
